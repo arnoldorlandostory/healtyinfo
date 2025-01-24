@@ -23,7 +23,6 @@ ul {
 /*Navbar*/
 
 .navbar {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.4rem 3%;
@@ -41,12 +40,6 @@ ul {
   width: 60%;
   height: 60%;
   margin-top: 2px;
-}
-
-.navbar .navbar-nav1 a {
-  color: black;
-  font-size: 1.4rem;
-  margin: 0 1rem;
 }
 
 .navbar .navbar-nav a {
@@ -448,11 +441,9 @@ footer .credit a {
 }
 
 .colom2 {
-  margin-top: 12rem;
+  margin-top: 15rem;
   width: 450px;
-  margin-left: 40rem;
-  align-items: center;
-  text-align: center;
+  float: left;
 }
 
 .tombol1 {
@@ -467,7 +458,7 @@ footer .credit a {
   margin-top: 3rem;
   padding: 2rem;
   background: #1abc9c;
-  border-color: #16a085;
+  border-color: black;
   color: white;
 }
 
@@ -513,69 +504,4 @@ footer .credit a {
 
 .paragraph {
   margin-bottom: 6rem;
-}
-
-.row.text-center.py-5 {
-  margin-top: -14rem;
-}
-
-.Judul {
-  margin-top: 12rem;
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.next {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 6rem;
-  margin-top: 11rem;
-  padding: 5px;
-  font-size: 7rem;
-  font-weight: bold;
-  color: #2f3542;
-}
-
-.next:hover {
-  color: #16a085;
-}
-
-.your-book {
-  padding: 36% 0;
-}
-
-.shopping-cart h6 {
-  margin: 2rem;
-}
-
-.col-md-7 {
-  margin-top: 5rem;
-}
-
-.back {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #2f3542;
-}
-
-.formulir {
-  float: right;
-  margin-right: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  background-color: #16a085;
-  padding: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  border-radius: 100px;
-  color: #fff;
-  font-weight: bold;
-}
-
-.formulir:hover {
-  color: #2f3542;
 }
